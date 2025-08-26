@@ -1,0 +1,81 @@
+.main-container{
+    width:100%;
+    background-color: bisque;
+}
+.main-top{
+    padding:1.5rem;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-top img{
+    width:3rem;
+    height:3rem; 
+    border-radius: 50%;   
+}
+.main-bottom{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.output{
+    display:flex;
+    flex-direction: column;
+
+    width:50vw;
+    padding:1rem;
+    background-color: aquamarine;
+}
+.output img{
+    width:3rem;
+    height:3rem;
+    border-radius: 50%;
+}
+.user-input {
+    width: 100%;
+    box-sizing:border-box;
+    padding:.25rem;
+    gap:8px;
+    display:flex;
+    flex-direction: row;
+    margin-bottom:2rem;
+}
+.system-output{
+    width: 100%;
+    box-sizing:border-box;
+    padding:.25rem;
+    gap:8px;
+    display:flex;
+    flex-direction: row;
+}
+.prompt-input{
+    width:50vw;
+    padding: .5rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius:25px;
+
+}
+.prompt-input input{
+   flex:1;
+   height:2rem;
+   border:none;
+   outline: none;
+   background-color:bisque;
+   padding:5px;
+    
+}
+.prompt-icon{
+    display:flex;
+    padding:.25rem;
+    gap:2px;
+}
+.prompt-icon img{
+    width:2rem;
+    height:2rem;
+}
